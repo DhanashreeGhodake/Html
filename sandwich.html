@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- MDB -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top py-0"  style="background-color: green;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/logo.png" height="75" class="card-img-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./register.html">Registration</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-toggle nav-link"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-mdb-dropdown-init
+                    data-mdb-ripple-init
+                    aria-expanded="false"
+                  >
+                    Menu
+              </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="./veg.html">Veg</a></li>
+                    <li><a class="dropdown-item" href="./nonveg.html">NonVeg</a></li>
+                    
+                  </ul>
+                </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search for Menu" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container w-100 my-4">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/ameri.png" class="card-img-top" height=350px alt="Hollywood Sign on The Hill"/>
+              <div class="card-body">
+                <h5 class="card-title">American Sandwich
+                </h5>
+                <p class="card-text">
+                  Rs.300
+                </p>
+                <button class="border btn btn-danger">ORDER NOW</button>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/BLT.png" class="card-img-top" height=350px alt="Palm Springs Road"/>
+              <div class="card-body">
+                <h5 class="card-title">BLT Sandwich
+                </h5>
+                <p class="card-text">Rs.500</p>
+                <button class="border btn btn-danger">ORDER NOW</button>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/1.png" class="card-img-top" height=350px alt="Los Angeles Skyscrapers"/>
+              <div class="card-body">
+                <h5 class="card-title">Bologna Sandwich</h5>
+                <p class="card-text">Rs.800</p>
+                <button class="border btn btn-danger">ORDER NOW</button>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/chees.png" class="card-img-top" height=350px alt="Skyscrapers"/>
+              <div class="card-body">
+                <h5 class="card-title">cheese Sandwich
+                </h5>
+                <p class="card-text">
+                  Rs.200
+                </p>
+                <button class="border btn btn-danger">ORDER NOW</button>
+
+              </div>
+            </div>
+          </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/salad.png" class="card-img-top" height=350px alt="Hollywood Sign on The Hill"/>
+            <div class="card-body">
+              <h5 class="card-title">Chicken Salad Sandwich</h5>
+              <p class="card-text">
+                Rs.900
+              </p>
+              <button class="border btn btn-danger">ORDER NOW</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/Cub.png" class="card-img-top" height=350px alt="Hollywood Sign on The Hill"/>
+            <div class="card-body">
+              <h5 class="card-title">Cuban Sandwich</h5>
+              <p class="card-text">
+                Rs.700
+              </p>
+              <button class="border btn btn-danger">ORDER NOW</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/egg.png" class="card-img-top" height=350px alt="Hollywood Sign on The Hill"/>
+            <div class="card-body">
+              <h5 class="card-title">Egg Sandwich</h5>
+              <p class="card-text">
+                Rs.300
+              </p>
+              <button class="border btn btn-danger">ORDER NOW</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/g.png" class="card-img-top" height=350px alt="Hollywood Sign on The Hill"/>
+            <div class="card-body">
+              <h5 class="card-title">Greek Gyros
+            </h5>
+              <p class="card-text">
+                Rs.200
+              </p>
+              <button class="border btn btn-danger">ORDER NOW</button>
+
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+            <!-- Footer -->
+  <footer class="text-center text-lg-start text-dark";  style="background-color: lightpink;">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span></span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>TAJ
+            </h6>
+            <p>
+                The Taj Mahal Palace is a heritage, five-star, luxury hotel in the Colaba area of Mumbai, Maharashtra,
+                India, situated next to the Gateway of India. Built in the Indo-Saracenic style, it opened in 1903 as the Taj Mahal Hotel
+                 and has historically often been known simply as "The Taj". The hotel is named after the Taj Mahal, which is located in the
+                  city of Agra approximately 1,050 kilometres (650 mi) from Mumbai. It has been considered one of the finest hotels in 
+                   East since the time of the British Raj.
+              </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Menu
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">pizza</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Burger</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">coffee</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">sandwich</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Test</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">visit</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Mumbai, MH 120042, India</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              taj@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 1800-266-0123</p>
+            <p><i class="fas fa-print me-3"></i> + 1800-266-0124</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Vegetarian Friendly, Vegan Options, Halal, Gluten Free Options</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.umd.min.js"></script>
+
+</body>
+</html>
